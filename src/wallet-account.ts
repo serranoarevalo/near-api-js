@@ -136,7 +136,7 @@ export class WalletConnection {
      * wallet.getAccountId();
      * ```
      */
-    getAccountId() {
+    getAccountId() : string {
         return this._authData.accountId || '';
     }
 
